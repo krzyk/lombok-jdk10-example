@@ -34,10 +34,7 @@
                 <configuration>
                     <useFile>false</useFile>
                     <parallel>all</parallel>
-                    <perCoreThreadCount>true</perCoreThreadCount>
                     <forkCount>1C</forkCount>
-                    <runOrder>random</runOrder>
-                    <trimStackTrace>false</trimStackTrace>
                 </configuration>
             </plugin>
             <plugin>
@@ -48,8 +45,6 @@
                     <useFile>false</useFile>
                     <forkCount>1</forkCount>
                     <reuseForks>true</reuseForks>
-                    <runOrder>random</runOrder>
-                    <trimStackTrace>false</trimStackTrace>
                 </configuration>
             </plugin>
         </plugins>
